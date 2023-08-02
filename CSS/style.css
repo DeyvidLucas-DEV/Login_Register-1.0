@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Raleway:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ff6666;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffeadd;
+  height: 600px;
+  width: 600px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 40px;
+  border-radius: 15px;
+  border: solid 5px;
+  border-color: #fcaeae;
+}
+
+.container h1 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: "Bungee Spice", cursive;
+  padding: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.loginContainer,
+.registerContainer, .passwordLogin, .emailLogin {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.emailL,
+.passwordL,
+.fullNameL,
+.comfirmPasswordL, .passwordLoginL, .emailLoginL {
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.email,
+.password,
+.fullName,
+.confirmPassword {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  padding-bottom: 5px;
+  width: 60%;
+  font-size: 17px;
+}
+
+.email::placeholder,
+.password::placeholder,
+.fullName::placeholder,
+.confirmPassword::placeholder {
+  text-transform: capitalize;
+  color: black;
+}
+
+.btns {
+  padding: 10px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.login {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.login a{
+  color: white;
+  text-decoration: none;
+}
+
+.register {
+  width: 100px;
+  height: 50px;
+  background-color: rgb(99, 135, 255);
+  color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-color: rgb(0, 0, 0);
+  border-radius: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
