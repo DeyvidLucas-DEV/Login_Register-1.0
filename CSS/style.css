@@ -106,7 +106,10 @@ body {
   text-transform: uppercase;
   font-weight: 700;
 }
-
+.register a{
+  color: white;
+  text-decoration: none;
+}
 .login a{
   color: white;
   text-decoration: none;
@@ -116,7 +119,7 @@ body {
   width: 100px;
   height: 50px;
   background-color: rgb(99, 135, 255);
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border: solid 1px;
   border-color: rgb(0, 0, 0);
   border-radius: 50px;

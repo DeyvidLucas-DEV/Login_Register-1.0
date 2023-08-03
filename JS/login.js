@@ -15,9 +15,9 @@ function enter(event) {
   });
 
   if (loginValid) {
-    console.log("Login bem-sucedido!");
+    alert('Login bem-sucedido!')
     console.log(loginValid);
   } else {
-    console.log("Credenciais inválidas. Tente novamente.");
+    alert('Credenciais inválidas. Tente novamente.')
   }
 }
